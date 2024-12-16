@@ -111,3 +111,6 @@ class IO:
                 f"There was a non-specific error!", e)
 
         return employee_data
+
+if __name__ == "__main__":
+    print(f"This is a dependent method. Please run main.py instead.")
